@@ -35,13 +35,13 @@ class Track extends React.Component<Props> {
             border-spacing: 3px;
           }
           td {
-            line-height: 50px;
-            width: 50px;
+            line-height: 40px;
+            width: 40px;
             text-align: center;
             background: white;
             font-weight: bold;
             font-size: 24px;
-            border-radius: 3px;
+            border-radius: 13px;
             cursor: pointer;
           }
           ul {
@@ -69,14 +69,14 @@ class Track extends React.Component<Props> {
           {currentMilestone ? (
             <div style={{flex: 1}}>
               <h3>{currentMilestone.summary}</h3>
-              <h4>Example behaviors:</h4>
-              <ul>
+              <h4>Things you might have done:</h4>
+              <ul style={{fontSize: '14px'}}>
                 {currentMilestone.signals.map((signal, i) => (
                   <li key={i}>{signal}</li>
                 ))}
               </ul>
-              <h4>Example tasks:</h4>
-              <ul>
+              <h4>Type of tasks you might have completed:</h4>
+              <ul style={{fontSize: '14px'}}>
                 {currentMilestone.examples.map((example, i) => (
                   <li key={i}>{example}</li>
                 ))}

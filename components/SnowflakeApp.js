@@ -1,17 +1,15 @@
 // @flow
 
 import TrackSelector from '../components/TrackSelector'
+import TitleSelector from '../components/TitleSelector'
 import NightingaleChart from '../components/NightingaleChart'
 import KeyboardListener from '../components/KeyboardListener'
 import Track from '../components/Track'
-import Wordmark from '../components/Wordmark'
-import LevelThermometer from '../components/LevelThermometer'
 import { eligibleTitles, trackIds, milestones, milestoneToPoints } from '../constants'
-import PointSummaries from '../components/PointSummaries'
 import type { Milestone, MilestoneMap, TrackId } from '../constants'
 import React from 'react'
-import TitleSelector from '../components/TitleSelector';
 import Admin from '../components/Admin';
+import Header from "./Header";
 
 type SnowflakeAppState = {
   milestoneByTrack: MilestoneMap,
@@ -139,7 +137,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             font-family: Helvetica;
           }
           main {
-            width: 79%;
+            width: 90%;
             margin: 0 auto;
             background-color: lavender;
           }
@@ -168,33 +166,22 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
         }
         
         `}</style>
-        <div style={{margin: '0 auto 0', width: 120}}>
-            <Wordmark />
-        </div>
 
-        <form>
-
-        <input
-          type="text"
-          className="name-input center"
-          value={this.state.name}
-          onChange={e => this.setState({name: e.target.value})}
-          placeholder="Enter Engineer's Name Here"
-          />
-          {/* <TitleSelector
+        <Header
+          name={this.state.name}
+          setNameFn={(name) => this.setState({name})}
+        />
+        {/* <TitleSelector
             milestoneByTrack={this.state.milestoneByTrack}
             currentTitle={this.state.title}
-            setTitleFn={(title) => this.setTitle(title)} /> */
-          }
-
-        </form>
+            setTitleFn={(title) => this.setTitle(title)} /> */}
         <TrackSelector
             milestoneByTrack={this.state.milestoneByTrack}
             focusedTrackId={this.state.focusedTrackId}
             setFocusedTrackIdFn={this.setFocusedTrackId.bind(this)} />
 
         <div style={{display: 'flex'}}>
-          <div style={{flex: 1}}>
+          <div style={{flex: 3}}>
 
         <KeyboardListener
             selectNextTrackFn={this.shiftFocusedTrack.bind(this, 1)}
@@ -206,21 +193,27 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             trackId={this.state.focusedTrackId}
             handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, milestone)} />
        </div>
+       <div style={{flex: 2}}>
+
             <NightingaleChart
                 milestoneByTrack={this.state.milestoneByTrack}
                 focusedTrackId={this.state.focusedTrackId}
                 handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, milestone)} />
 
+       </div>
+       <div>
+        <Admin />
+       </div>
 
        </div>
-        <div className="footer" style={{display: 'flex', paddingBottom: '20px'}}>
+        <div className="footer" style={{display: 'flex', paddingBottom: '3px'}}>
           <div style={{flex: 1}}>
             Made with ❤️ by <a href="https://medium.engineering" target="_blank">Medium Eng</a>.
             Improvements by <a href="https://software.wikimedia.de" target="_blank">Wikimedia Germnay</a>. 
           </div>
         </div>
-
-        <Admin />
+        <br></br>
+        <br></br>
       </main>
     )
   }

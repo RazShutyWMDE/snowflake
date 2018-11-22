@@ -1,0 +1,77 @@
+
+{
+    "displayName": "Frontend",
+    "category": "A",
+    "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
+    "milestones": [{
+        "summary": "Works effectively within established web client architectures, following current best practices",
+        "signals": [
+            "Makes minor modifications to existing screens",
+            "Fixes simple design quality issues",
+            "Uses CSS appropriately, following style guide"
+                ],
+        "examples": [
+            "Makes CSS changes in the UI",
+            "Fix wrong UI colors, elements alignment, font size, etc",
+            "Moves componenets on the UI"
+        ]
+    },
+    {
+        "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture\n",
+        "signals": [
+            "Makes sensible abstractions based on template and code patterns",
+            "Specs and builds interactive components independently",
+            "Prototypes simple new features quickly",
+            "Create unit tests"
+        ],
+        "examples": [
+            "Implement a new playground tool as a POC that looks production ready",
+            "Implement a view that doesn't require many changes after reviewed by the designer",
+            "Send pull request that doesn't require major changes from the reviewer"
+        ]
+    },
+    {
+        "summary": "Designs major new features and demonstrates a nuanced understanding of browser constraints",
+        "signals": [            
+            "Implement new features from scratch",
+            "Comfortable with the pattern and structure of projects",
+            "Has good knowledge of browser rendering, render tree, CSS inheritance",
+            "Have some sense of performance issues",
+            "Implement UIs with high fidelity to what has been created by designers",
+            "Write code that is easy to understand and with quality",
+            "Create UI components that can be reused in other places by extending existing components",
+            "Review code from others, suggesting changes and improvements",
+            "Make changes that require few corrections during code review by reviewer"
+        ],
+        "examples": [            
+            "Creates a new class based on a well known pattern",
+            "Creates reusable UI components like buttons, modals, dropdowns, etc, avoiding duplication of code"
+        ]
+    },
+    {
+        "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively",
+        "signals": [            
+            "Pioneers architecture migrations that reduce programmer burden",
+            "Implements complex UI transitions that bring delight",
+            "Makes architectural decisions that eliminate entire classes of bugs"
+        ],
+        "examples": [
+            "Implemented a way to steer away from our Jquery/OOUI and enable us to work with a more modern framework",
+            "Built reusable components that are used all over the ogranisation"
+        ]
+        },
+        {
+        "summary": "Is an industry-leading expert in web client or sets strategic web client direction for an eng team",
+        "signals": [
+            "Invents new techniques to innovate and overcome browser constraints",
+            "Identifies and solved systemic problems with current architecture",
+            "Defines a long-term vision for web client and ensures projects are in service of it"
+        ],
+        "examples": [
+            "Defined and drove migration strategy to a new framework",
+            "Architected the new SSR with Vue.js on the wikidata team",
+            "Understands all new frontend frameworks and chose the right one for the right task"
+        ]
+        }]
+    }
+    
