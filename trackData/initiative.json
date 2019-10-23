@@ -1,20 +1,22 @@
 {
     "displayName": "Initiative",
-    "category": "B",
+    "category": "Executing",
     "description": "Challenges the status quo and effects positive organizational change outside of mandated work",
     "milestones": [{
+      "points": 1,
       "summary": "Identifies opportunities for organizational change or product improvements",
       "signals": [
-        "Writes Hatch posts about improvement opportunities",
+        "Writes Blog posts about improvement opportunities",
         "Raises meaningful tensions in tactical meetings",
-        "Asks leadership team probing questions at FAM"
+        "Asks leadership team probing questions at All-Hands or Quarterly meetings"
       ],
       "examples": [
-        "Wrote about problems with TTR on Hatch",
-        "Wrote about content policy problems on Hatch",
-        "Reported a site issue in Github"
+        "Blogs about problems we encountered",
+        "Blogs about how to use our products",
+        "Reported an issue in Github/Phabricator"
       ]
     }, {
+      "points": 3,
       "summary": "Causes change to positively impact a few individuals or minor improvement to an existing product or service",
       "signals": [
         "Picks bugs off the backlog proactively when blocked elsewhere",
@@ -27,18 +29,19 @@
         "Audited web client performance in Chrome and proposed fixes"
       ]
     }, {
+      "points": 6,
       "summary": "Causes change to positively impact an entire team or instigates a minor feature or service",
       "signals": [
         "Demonstrates concepts proactively with prototypes",
         "Fixes complicated bugs outside of regular domain",
-        "Takes ownership of systems that nobody owns or wants"
+        "Takes ownership of systems that nobody owns or wants, but are still critical to have"
       ],
       "examples": [
         "Defined style guide to resolve style arguments",
-        "Proposed and implemented at-mentions prototype",
-        "Implemented video for Android independently, unprompted"
+        "Proposed and implemented at-mentions prototype"
       ]
     }, {
+      "points": 12,
       "summary": "Effects change that has a substantial positive impact on the engineering organization or a major product impact",
       "signals": [
         "Champions and pioneers new technologies to solve new classes of problem",
@@ -46,21 +49,19 @@
         "Instigates major new features, services, or architectures"
       ],
       "examples": [
-        "Created the interviewing rubric and booklet",
-        "Implemented and secured support for native login",
-        "Migrated medium2 to mono repo and bazel"
+        "Created the engineering interviewing profile and process"
       ]
     }, {
-      "summary": "Effects change that has a substantial positive impact on the whole company",
+      "points": 20,
+      "summary": "Effects change that has a substantial positive impact on the whole org",
       "signals": [
         "Creates a new function to solve systemic issues",
-        "Galvanizes the entire company and garners buy in for a new strategy",
+        "Develops and convinces teams of a better strategy",
         "Changes complex organizational processes"
       ],
       "examples": [
-        "Migrated the organization from Holacracy",
-        "Built Medium Android prototype and convinced execs to fund it",
-        "Convinced leadership and engineering org to move to Medium Lite architecture"
+        "Initiated or heavily contributed to shifting teams to be Product-Driven",
+        "Convinced teams to move to a new Goal setting process"
       ]
     }]
   }

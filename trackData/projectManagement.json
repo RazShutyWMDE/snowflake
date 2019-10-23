@@ -1,8 +1,9 @@
 {
     "displayName": "Project management",
-    "category": "B",
+    "category": "Executing",
     "description": "Delivers well-scoped programs of work that meet their goals, on time, to budget, harmoniously",
     "milestones": [{
+      "points": 1,
       "summary": "Effectively delivers individual tasks",
       "signals": [
         "Estimates small tasks accurately",
@@ -11,10 +12,10 @@
       ],
       "examples": [
         "Wrote the technical spec for featured post images",
-        "Delivered stream item support for email digests",
-        "Delivered payment history dashboard"
+        "Delivered well understood brief for the email digests"
       ]
     }, {
+      "points": 3,
       "summary": "Effectively delivers small personal projects",
       "signals": [
         "Performs research and considers alternative approaches",
@@ -22,11 +23,11 @@
         "Defines and hits interim milestones"
       ],
       "examples": [
-        "Delivered promo editor",
-        "Delivered audio uploading for web client",
-        "Executed the recommends to claps backfill"
+        "Delivered small projects that were asked or assigned to",
+        "Were able to work alone on a topic and present satisfying results"
       ]
     }, {
+      "points": 6,
       "summary": "Effectively delivers projects through a small team",
       "signals": [
         "Delegates tasks to others appropriately",
@@ -39,6 +40,7 @@
         "Facilitated project kickoff meeting to get buy-in"
       ]
     }, {
+      "points": 12,
       "summary": "Effectively delivers projects through a large team, or with a significant amount of stakeholders or complexity",
       "signals": [
         "Finds ways to deliver requested scope faster, and prioritizes backlog",
@@ -47,19 +49,20 @@
       ],
       "examples": [
         "Oversaw technical delivery of Hightower",
-        "Managed infrastructure migration to VPC",
-        "Involved marketing, legal, and appropriate functions at project start"
+        "Managed data migration in production",
+        "Involved all appropriate functions at project start"
       ]
     }, {
-      "summary": "Manages major company pushes delivered by multiple teams",
+      "points": 20,
+      "summary": "Manages major org pushes delivered by multiple teams",
       "signals": [
         "Considers external constraints and business objectives when planning",
         "Leads teams of teams, and coordinates effective cross-functional collaboration",
-        "Owns a key company metric"
+        "Pushes for and sets up a key metric for the team"
       ],
       "examples": [
-        "Managed technical migration to SOA",
-        "Lead technical delivery of 10/7",
+        "Managed technical migration",
+        "Lead technical delivery",
         "Delivered multi-month engineering project on time"
       ]
     }]

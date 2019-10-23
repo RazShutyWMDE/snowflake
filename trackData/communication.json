@@ -1,8 +1,9 @@
 {
   "displayName": "Communication",
-  "category": "B",
+  "category": "Executing",
   "description": "Shares the right amount of information with the right people, at the right time, and listens effectively",
   "milestones": [{
+    "points": 1,
     "summary": "Communicates effectively to close stakeholders when called upon, and incorporates constructive feedback",
     "signals": [
       "Communicates project status clearly and effectively",
@@ -10,11 +11,12 @@
       "Asks for help at the appropriate juncture"
     ],
     "examples": [
-      "Updated The Watch before running a backfill",
-      "Updated project status changes in Asana promptly",
+      "Updated project status changes in Phabricator promptly",
+      "Created cross-team Mattermost channel for a feature",
       "Gave thoughtful check-in and check-out comments"
     ]
   }, {
+    "points": 3,
     "summary": "Communicates with the wider team appropriately, focusing on timeliness and good quality conversations",
     "signals": [
       "Practises active listening and suspension of attention",
@@ -23,10 +25,11 @@
     ],
     "examples": [
       "Received and integrated critical feedback positively",
-      "Created cross-team Slack channel for payments work",
-      "Spoke to domain experts before writing spec"
+      "Spoke to domain experts before writing spec",
+      "Enriched a team, by creating a Guild and communicate the learnings to others"
     ]
   }, {
+    "points": 6,
     "summary": "Proactively shares information, actively solicits feedback, and facilitates communication for multiple stakeholders",
     "signals": [
       "Resolves communication difficulties between others",
@@ -35,10 +38,11 @@
     ],
     "examples": [
       "Directed team response effectively during outages",
-      "Gave a substantial Eng All Hands presentation on React",
+      "Gave a substantial All Hands / Demo Time presentation on a topic",
       "Gave notice of upcoming related work in Eng Briefing"
     ]
   }, {
+    "points": 12,
     "summary": "Communicates complex ideas skillfully and with nuance, and establishes alignment within the wider organization",
     "signals": [
       "Communicates project risk and tradeoffs skillfully and with nuance",
@@ -47,20 +51,21 @@
     ],
     "examples": [
       "Lead off-site workshop on interviewing",
-      "Wrote Medium's growth framework and rationale",
-      "Aligned the entire organization around claps"
+      "Wrote WMDE's growth framework and rationale",
+      "Aligned relevant teams in the organization around a shared goal"
     ]
   }, {
+    "points": 20,
     "summary": "Influences outcomes at the highest level, moves beyond mere broadcasting, and sets best practices for others",
     "signals": [
       "Defines processes for clear communication for the entire team",
       "Shares the right amount of information with the right people, at the right time",
-      "Develops and delivers plans to execs, the board, and outside investors"
+      "Develops and delivers plans to managers, the board, and outside partners"
     ],
     "examples": [
       "Organized half year check-in company offsite",
       "Created the communication plan for a large organizational change",
-      "Presented to the board about key company metrics and projects"
+      "Presented about key metrics and projects",
     ]
   }]
 }
